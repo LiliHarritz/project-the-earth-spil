@@ -1,0 +1,367 @@
+#mus{
+  cursor: url("../img/mus.svg");
+}
+
+#screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+#game {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#game_background {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  background-image: url(../img/baggrund1.png);
+  background-size: cover;
+}
+#game_elements {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Spilelementer og mellemgrund */
+/* Husk både container og sprite til de elementer du skal klikke på */
+
+#alienufo1_container {
+  position: absolute;
+  width: 14%;
+  aspect-ratio: 346.38/295.89;
+  transform-origin: center 95%;
+}
+
+#alienufo1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/alienufo.svg);
+  background-size: cover;
+}
+#alienufo2_container {
+  position: absolute;
+  width: 14%;
+  aspect-ratio: 346.38/295.89;
+  transform-origin: center 95%;
+}
+
+#alienufo2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/alienufo.svg);
+  background-size: cover;
+}
+#alienufo3_container {
+  position: absolute;
+  width: 14%;
+  aspect-ratio: 346.38/295.89;
+  transform-origin: center 95%;
+}
+
+#alienufo3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/alienufo.svg);
+  background-size: cover;
+}
+
+#meteor1_container{
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 476.23/278;
+}
+
+#meteor2_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 328.16/198.25;
+}
+
+#meteor3_container
+{
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 335.57/181.57;
+}
+
+#meteor1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/meteor1.svg);
+  background-size: cover;
+}
+
+#meteor2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/meteor2.svg);
+  background-size: cover;
+}
+
+#meteor3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/meteor3.svg);
+  background-size: cover;
+}
+
+
+
+#hjerte_container{
+  position: absolute;
+  width: 5%;
+  aspect-ratio: 168.87/152.81;
+}
+
+#hjerte_sprite{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url(../img/hjerte.svg);
+  background-size: cover;
+}
+
+.pos1 {
+  top: 7%;
+  left: 100%;
+}
+.pos2 {
+  top: 27%;
+  left: 100%;
+}
+.pos3 {
+  top: 12%;
+  left: 100%;
+}
+.pos4 {
+  top: 56%;
+  left: 100%;
+}
+.pos5 {
+  top: 35%;
+  left: 100%;
+}
+.pos6 {
+  top: 48%;
+  left: 100%;
+}
+.pos7 {
+  top: 24%;
+  left: 100%;
+}
+.pos8 {
+  top: 4%;
+  left: 100%;
+}
+.pos9 {
+  top: 63%;
+  left: 100%;
+}
+.pos10 {
+  top: 37%;
+  left: 100%;
+}
+.pos11 {
+  top: 80%;
+  left: 100%;
+}
+.pos12 {
+  top: 20%;
+  left: 100%;
+}
+.pos13 {
+  top: 75%;
+  left: 100%;
+}
+.pos13 {
+  top: 19%;
+  left: 100%;
+}
+
+#mellemgrund {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img);
+  background-size: cover;
+  pointer-events: none;
+}
+
+/* UI elementer */
+
+#game_ui {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#mine_points {
+  font-size: 2cqw;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+#mine_liv {
+  font-size: 2cqw;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  left: -20%;
+}
+#energy_board1 {
+  position: absolute;
+  top: -6.2%;
+  left: 78.8%;
+  width: 36%;
+  aspect-ratio: 3/1;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#energy_board2 {
+  position: absolute;
+  top: -6.2%;
+  left: 71%;
+  width: 36%;
+  aspect-ratio: 3/1;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tid {
+  position: absolute;
+  top: 1.9%;
+  left: 54.6%;
+  width: 27%;
+  aspect-ratio: 529.31/56;
+  background-image: url(../img/timerblue.svg);
+  background-size: cover;
+}
+
+/* Start- og slutskærme */
+/* Brug evt. inspektoren til at se dem ved at fjerne display:none */
+
+#start {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  background-image: url(../img/startskaerm.png);
+}
+#play {
+  position: absolute;
+  top:33%;
+  left: -2%;
+  right: 0;
+  width: 18%;
+  aspect-ratio: 580/250;
+  background-image: url(../img/playbutton.svg);
+  background-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  media
+}
+#play:hover {
+  scale: 1.2;
+  transition: all 1s;
+}
+
+#game_over {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  background-image: url(../img/gameover.png);
+}
+
+#playagain1 {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 442.8/171.36;
+  background-image: url("../img/playagain.svg");
+  background-size: cover;
+  top: 40%;
+  left: 41%;
+}
+}
+#playagain2 {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 442.8/171.36;
+  background-image: url("../img/playagain.svg");
+  background-size: cover;
+  top: 40%;
+  left: 41%;
+}
+
+#playagain1:hover {
+  scale: 1.2;
+  transition: all 1s;
+}
+
+#playagain2:hover {
+  scale: 1.2;
+  transition: all 1s;
+}
+
+#level_complete {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/levelcomplete.png);
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: black;
+}
+
+//ASSET///
+
+.assets_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.assets_grid img {
+  width: 100%;
+}
+
+.backgroundimg {
+  width: 50%;
+}
+
+.game-elements {
+  width: 50%;
+}
+
+.ui-elements {
+  width: 50%;
+}

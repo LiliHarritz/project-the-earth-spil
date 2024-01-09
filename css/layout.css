@@ -1,0 +1,70 @@
+main,
+header,
+footer {
+  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: rgb(190, 127, 202);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f3f3f3;
+  text-shadow: 0px 0px 5px black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav{
+  background-color: rgb(190, 127, 202);
+  overflow: hidden;
+  font-family:'Lilita One', serif;
+}
+.topnav a:hover {
+  background-color: #cfabeb;
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+
+.topnav a.active {
+  background-color: rgb(190, 127, 202);
+  color: white;
+}
+
+//forside//
+
+.index_text {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+}
+
+  //ASSET///
+
+.assets_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr:
+}
+
+.assets_grid img {
+  width: 100%;
+}
+
+.backgroundimg {
+  width: 100%;
+}
+
+.game-elements {
+  width: 100%;
+}
+
+.ui-elements {
+  width: 100%;
+}
